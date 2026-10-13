@@ -1,0 +1,3 @@
+import Navbar from '@/components/Navbar';
+import { Hero, About, MenuSection, Features, Gallery, Visit, Contact, Footer } from '@/components/Sections';
+export default function Home(){return <><Navbar/><main><Hero/><About/><MenuSection/><Features/><Gallery/><Visit/><Contact/></main><Footer/><a href="https://wa.me/919763951618?text=Hi%20Waari%20Book%20Cafe!" target="_blank" rel="noreferrer" aria-label="Message Waari Book Cafe on WhatsApp" className="fixed bottom-4 right-4 z-40 flex items-center gap-2 rounded-full bg-[#303326] px-4 py-3 text-sm font-bold text-white shadow-xl transition hover:-translate-y-1 hover:bg-[#68734b]"><span className="h-2 w-2 rounded-full bg-[#b9d39a]"/> WhatsApp</a></>}
